@@ -1,3 +1,10 @@
 #!/usr/bin/python3
-for k in range(97,123):
-    print("{}".format(chr(k)),end="")
+
+
+def main():
+    for k in 'abcdefghijklmnopqrstuvwxyz':
+        print('{}'.format(k), end='')
+
+if __name__ == '__main__':
+    main()
+

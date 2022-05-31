@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-def main():
- for x in range(10):
-     for y in range(x + 1, 10):
-         print("{}".format(str(x) + str(y)), end="")
-         if int(str(x) + str(y)) < 89:
-              print(", ", end="")
-print("")
-main()
+
+
+x = 0
+for y in range(122, 96, -1):
+    if y % 2 == 0:
+        x = n
+    else:
+        x = y - 32
+    print("{}".format(chr(x)), end='')
+

@@ -1,4 +1,11 @@
 #!/usr/bin/python3
-for i in 'abcdefghijklmnopqrstuvwxyz':
-    if (i != "q" and i != "e"):
-        print("{}".format(i), end="")
+
+
+def alpha():
+    for k in range(97, 123):
+        if k != 101 and k != 113:
+            print('{}'.format(chr(k)), end='')
+
+
+if __name__ == '__main__':
+    alpha()
