@@ -9,5 +9,3 @@ elif number > 0:
     print('{:d} is positive'.format(number))
 else:
     print('{:d} is zero'.format(number))
-
-
