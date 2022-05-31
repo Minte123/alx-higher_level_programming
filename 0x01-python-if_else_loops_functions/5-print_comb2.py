@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-for i in range(100):
-    if i<99:
-      print("{0:0>2}".format(i),end=", ")
-    else:
-      print("{0:0>2}".format(i))  
+
+
+if __name__ == '__main__':
+    for z in range(100):
+        if z != 99:
+            print('{:02d}'.format(z), end=', ')
+        else:
+            print('{:02d}'.format(z))
+ 
                                     
