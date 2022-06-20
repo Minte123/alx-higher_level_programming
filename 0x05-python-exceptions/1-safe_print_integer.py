@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 def safe_print_integer(value):
+    """The function print integer type only"""
     try:
         print("{:d}".format(value))
         return True
-    except:
+    except(TypeError, ValueError):
         return False
